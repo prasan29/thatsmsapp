@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.databinding:adapters:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/1114b616b36ed803c12119fc69003bf4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/9da02d20e780216924bc27211fd00576/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b8d42d14729b0708145e83365df6b4b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/62df7b035abc64b4447764b6f3821392/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/023c9f99305d79d50d4b35a3081b2d00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ff608d2f8d25d28f9892e6d38cbd3fcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d8fbf32e7f4942d123e720908c8bb445/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e7080e87d2884387ef632a66c354011b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2b6b444f871b8dfafd036e37027b041f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d402b104e65bfab176fb12f5313f83b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cd1866ad62523c17f9fb2c60c2f052db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b4d28dd7a25107a0cb4c57becb337a03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b0a1449ad065ad78c6c5270e08627eb7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c5f55840faf331ecac0ed11b5b94a1d3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/21049deebe85f8a1d033e91dab941e65/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/703a52a735b4c8c08719eb8f2e85f351/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/250b593d04da08f74a95237f5d51089f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/69a1949e78829868978fa8e86a7191a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b0519c80a5ead98e5538372abb055137/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/88f2bb6c76c5a6aa3cbaa14bd4104357/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9806edb4ce90bf45ee6d849b2aa98cf7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9fd1b7d8a1533aedda3360345352c2be/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ffea99056fd048df9fcac95e96b2b9b7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/21cc3ed701299956617826726da39e63/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/40338ee8588cbccc64b68110e6c35ac3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6fa9a98a12f43f939618672b4ed1944a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/986bf9e737989081ae50aa5d60540fee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/30f75d9a7a386962fd13b1936a818856/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_SMS
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b0519c80a5ead98e5538372abb055137/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b0519c80a5ead98e5538372abb055137/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.app.sms.thatsmsapp.activity.HomeActivity
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:14:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/1114b616b36ed803c12119fc69003bf4/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/1114b616b36ed803c12119fc69003bf4/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/9da02d20e780216924bc27211fd00576/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/9da02d20e780216924bc27211fd00576/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b8d42d14729b0708145e83365df6b4b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b8d42d14729b0708145e83365df6b4b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/62df7b035abc64b4447764b6f3821392/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/62df7b035abc64b4447764b6f3821392/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/023c9f99305d79d50d4b35a3081b2d00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/023c9f99305d79d50d4b35a3081b2d00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ff608d2f8d25d28f9892e6d38cbd3fcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ff608d2f8d25d28f9892e6d38cbd3fcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d8fbf32e7f4942d123e720908c8bb445/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d8fbf32e7f4942d123e720908c8bb445/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e7080e87d2884387ef632a66c354011b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e7080e87d2884387ef632a66c354011b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2b6b444f871b8dfafd036e37027b041f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2b6b444f871b8dfafd036e37027b041f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d402b104e65bfab176fb12f5313f83b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d402b104e65bfab176fb12f5313f83b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cd1866ad62523c17f9fb2c60c2f052db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cd1866ad62523c17f9fb2c60c2f052db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b4d28dd7a25107a0cb4c57becb337a03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b4d28dd7a25107a0cb4c57becb337a03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b0a1449ad065ad78c6c5270e08627eb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b0a1449ad065ad78c6c5270e08627eb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c5f55840faf331ecac0ed11b5b94a1d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c5f55840faf331ecac0ed11b5b94a1d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/21049deebe85f8a1d033e91dab941e65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/21049deebe85f8a1d033e91dab941e65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/703a52a735b4c8c08719eb8f2e85f351/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/703a52a735b4c8c08719eb8f2e85f351/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/250b593d04da08f74a95237f5d51089f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/250b593d04da08f74a95237f5d51089f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/69a1949e78829868978fa8e86a7191a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/69a1949e78829868978fa8e86a7191a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b0519c80a5ead98e5538372abb055137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b0519c80a5ead98e5538372abb055137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/88f2bb6c76c5a6aa3cbaa14bd4104357/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/88f2bb6c76c5a6aa3cbaa14bd4104357/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9806edb4ce90bf45ee6d849b2aa98cf7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9806edb4ce90bf45ee6d849b2aa98cf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9fd1b7d8a1533aedda3360345352c2be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9fd1b7d8a1533aedda3360345352c2be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ffea99056fd048df9fcac95e96b2b9b7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ffea99056fd048df9fcac95e96b2b9b7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/21cc3ed701299956617826726da39e63/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/21cc3ed701299956617826726da39e63/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/40338ee8588cbccc64b68110e6c35ac3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/joker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/40338ee8588cbccc64b68110e6c35ac3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6fa9a98a12f43f939618672b4ed1944a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6fa9a98a12f43f939618672b4ed1944a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/986bf9e737989081ae50aa5d60540fee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/986bf9e737989081ae50aa5d60540fee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/30f75d9a7a386962fd13b1936a818856/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/30f75d9a7a386962fd13b1936a818856/AndroidManifest.xml:20:5-44
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml

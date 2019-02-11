@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="itemViewModel"
+            type="com.app.sms.thatsmsapp.viewmodel.SmsListItem" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_item"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:text="@{itemViewModel.smsSenderNumber}"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32sp"
+            android:padding="8sp"
+            android:text="@{itemViewModel.smsBody}"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</layout>
