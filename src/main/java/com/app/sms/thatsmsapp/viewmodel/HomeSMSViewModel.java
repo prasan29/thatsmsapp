@@ -10,7 +10,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.app.sms.thatsmsapp.R;
@@ -20,9 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeSMSViewModel extends BaseObservable {
-    public static final int MY_PERMISSIONS_REQUEST_READ_SMS = 100;
-    private final String TAG = "SMS_DEBUG";
-    public List<SmsListItem> smsList = new ArrayList<>();
+    private static final int MY_PERMISSIONS_REQUEST_READ_SMS = 100;
+    private List<SmsListItem> smsList = new ArrayList<>();
     private Activity mContext;
     private boolean mFromNotification;
 
@@ -30,20 +28,21 @@ public class HomeSMSViewModel extends BaseObservable {
         mContext = context;
     }
 
-    public void getMessages() {
+    private void getMessages() {
         Uri smsUri = Uri.parse("content://sms/inbox");
         final Cursor cursor = mContext.getContentResolver().query(smsUri, new String[]{"_id", "address", "date", "body"}, null, null, null);
+        assert cursor != null;
         while (cursor.moveToNext()) {
             String address = cursor.getString(1);
             String date = cursor.getString(2);
             String smsBody = cursor.getString(3);
-            Log.e(TAG, "Number: " + address + " - Date: " + date + " - Body: " + smsBody);
             SmsListItem item = new SmsListItem();
             item.smsSenderNumber.set(address);
             item.smsDate.set(date);
             item.smsBody.set(smsBody);
             smsList.add(item);
         }
+        cursor.close();
         setRecycler();
     }
 

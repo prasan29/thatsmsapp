@@ -3,7 +3,6 @@ package com.app.sms.thatsmsapp.activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 import com.app.sms.thatsmsapp.R;
 import com.app.sms.thatsmsapp.viewmodel.HomeSMSViewModel;
@@ -19,7 +18,6 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         mHomeViewModel = new HomeSMSViewModel(this);
         mHomeViewModel.checkSmsPermission(fromNotification);
-        Log.e("Home", "onCreate()");
     }
 
     @Override
@@ -28,7 +26,7 @@ public class HomeActivity extends AppCompatActivity {
         if (getIntent().getExtras() != null) {
             fromNotification = getIntent().getExtras().getBoolean("from_notification");
             if (fromNotification) {
-                mHomeViewModel.checkSmsPermission(fromNotification);
+                mHomeViewModel.checkSmsPermission(true);
             }
         }
     }
