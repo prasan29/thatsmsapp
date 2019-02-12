@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.databinding:adapters:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/1114b616b36ed803c12119fc69003bf4/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.2.1] /home/joker/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/9da02d20e780216924bc27211fd00576/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b8d42d14729b0708145e83365df6b4b2/AndroidManifest.xml:17:1-22:12
@@ -33,29 +33,33 @@ MERGED from [android.arch.core:runtime:1.1.1] /home/joker/.gradle/caches/transfo
 MERGED from [com.android.support:documentfile:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6fa9a98a12f43f939618672b4ed1944a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/986bf9e737989081ae50aa5d60540fee/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/30f75d9a7a386962fd13b1936a818856/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_SMS
-ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:6:22-67
 application
-ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:7:5-21:19
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:8:5-23:19
 MERGED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b0519c80a5ead98e5538372abb055137/AndroidManifest.xml:22:5-23:19
@@ -63,31 +67,35 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/joker/.gradle
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/joker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/93b157e7d65ea8af75d6454700e27c67/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.app.sms.thatsmsapp.activity.HomeActivity
-ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:14:19-56
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:15:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:19:27-74
+receiver#com.app.sms.thatsmsapp.service.SmsBroadcastReceiver
+ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:22:9-66
+	android:name
+		ADDED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml:22:19-63
 uses-sdk
 INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/joker/AndroidProjects/ThatSMSApp/app/src/main/AndroidManifest.xml

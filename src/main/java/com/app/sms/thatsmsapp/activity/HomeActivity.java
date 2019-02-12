@@ -11,13 +11,26 @@ import com.app.sms.thatsmsapp.viewmodel.HomeSMSViewModel;
 public class HomeActivity extends AppCompatActivity {
 
     HomeSMSViewModel mHomeViewModel;
+    private boolean fromNotification = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         mHomeViewModel = new HomeSMSViewModel(this);
-        mHomeViewModel.checkSmsPermission();
+        mHomeViewModel.checkSmsPermission(fromNotification);
+        Log.e("Home", "onCreate()");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (getIntent().getExtras() != null) {
+            fromNotification = getIntent().getExtras().getBoolean("from_notification");
+            if (fromNotification) {
+                mHomeViewModel.checkSmsPermission(fromNotification);
+            }
+        }
     }
 
     @Override

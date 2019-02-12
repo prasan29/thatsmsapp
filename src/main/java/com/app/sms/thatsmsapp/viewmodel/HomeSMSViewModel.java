@@ -24,6 +24,7 @@ public class HomeSMSViewModel extends BaseObservable {
     private final String TAG = "SMS_DEBUG";
     public List<SmsListItem> smsList = new ArrayList<>();
     private Activity mContext;
+    private boolean mFromNotification;
 
     public HomeSMSViewModel(Activity context) {
         mContext = context;
@@ -43,13 +44,12 @@ public class HomeSMSViewModel extends BaseObservable {
             item.smsBody.set(smsBody);
             smsList.add(item);
         }
-
         setRecycler();
     }
 
     private void setRecycler() {
         if (smsList != null) {
-            SmsListAdapter adapter = new SmsListAdapter(smsList);
+            SmsListAdapter adapter = new SmsListAdapter(smsList, mFromNotification);
             RecyclerView recyclerView = mContext.findViewById(R.id.recyclerViewId);
             RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(mContext, LinearLayoutManager.VERTICAL, false);
             recyclerView.setLayoutManager(layoutManager);
@@ -57,7 +57,8 @@ public class HomeSMSViewModel extends BaseObservable {
         }
     }
 
-    public void checkSmsPermission() {
+    public void checkSmsPermission(boolean fromNotification) {
+        mFromNotification = fromNotification;
         if (ContextCompat.checkSelfPermission(mContext,
                 Manifest.permission.READ_SMS)
                 != PackageManager.PERMISSION_GRANTED) {

@@ -11,7 +11,9 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8sp"
         android:background="@drawable/border_item"
+        android:backgroundTint="@{itemViewModel.fromNotification ? @color/colorAccent : @color/white}"
         android:orientation="vertical">
 
         <TextView

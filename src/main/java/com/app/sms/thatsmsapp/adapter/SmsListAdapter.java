@@ -4,7 +4,6 @@ import android.databinding.DataBindingUtil;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import com.app.sms.thatsmsapp.R;
@@ -17,9 +16,11 @@ public class SmsListAdapter extends RecyclerView.Adapter<SmsListAdapter.MyViewHo
 
     public List<SmsListItem> mSmsList;
     private LayoutInflater layoutInflater;
+    private boolean mFromNotification;
 
-    public SmsListAdapter(List<SmsListItem> smsList) {
+    public SmsListAdapter(List<SmsListItem> smsList, boolean fromNotification) {
         mSmsList = smsList;
+        mFromNotification = fromNotification;
     }
 
     @NonNull
@@ -34,7 +35,14 @@ public class SmsListAdapter extends RecyclerView.Adapter<SmsListAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
-        myViewHolder.binding.setItemViewModel(mSmsList.get(i));
+        SmsListItem item = mSmsList.get(i);
+        if (i == 0) {
+            if (mFromNotification) {
+                item.fromNotification.set(true);
+            }
+        }
+
+        myViewHolder.binding.setItemViewModel(item);
     }
 
     @Override
